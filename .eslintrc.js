@@ -3,7 +3,7 @@ module.exports = {
     'browser': true,
     'es6': true
   },
-  // 'extends': 'standard',
+  'extends': ['plugin:prettier/recommended'],
   'parserOptions': {
     'ecmaFeatures': {
       'jsx': true
