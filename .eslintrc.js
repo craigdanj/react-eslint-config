@@ -4,9 +4,8 @@ module.exports = {
         'es6': true
     },
     'extends': [
-        /*
-            Uncomment the rules set you prefer from the list below
-        */
+        /* Uncomment the rules set you prefer from the list below */
+
         'plugin:prettier/recommended'
         // 'eslint:recommended'
     ],
