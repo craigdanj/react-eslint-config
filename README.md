@@ -9,6 +9,6 @@ To integrate into an existing project:
 4. You should be able to lint using the 'npm run lint' command now.
 
 
-##Configuration:
+## Configuration:
 In the `extends` section of the `.eslintrc.js` file select the rule set you prefer by commenting out the appropriate line.
 There are a few rules specified at the bottom of the file that are optional and can be enabled if required.
