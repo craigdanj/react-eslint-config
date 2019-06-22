@@ -4,8 +4,11 @@ module.exports = {
         'es6': true
     },
     'extends': [
+        /*
+            Uncomment the rules set you prefer from the list below
+        */
         'plugin:prettier/recommended'
-        // 'plugin:react/recommended'
+        // 'eslint:recommended'
     ],
     'parserOptions': {
         'ecmaFeatures': {
