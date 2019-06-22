@@ -4,8 +4,8 @@ module.exports = {
         'es6': true
     },
     'extends': [
-        'plugin:prettier/recommended',
-        'plugin:react/recommended'
+        'plugin:prettier/recommended'
+        // 'plugin:react/recommended'
     ],
     'parserOptions': {
         'ecmaFeatures': {
@@ -19,7 +19,11 @@ module.exports = {
         'prettier'
     ],
     'rules': {
+        //Prettier
         'prettier/prettier': 2,
+
+        //EsLint Rules
+        'prefer-const': 2,
 
         //React Rules
         'react/button-has-type': 2,
@@ -85,5 +89,7 @@ module.exports = {
 
         // Optional: Uncomment only if you think you need them
         // 'react/require-optimization': 2,
+        // 'react/react-in-jsx-scope': 0,
+        // 'no-var': 2,
     }
 }
