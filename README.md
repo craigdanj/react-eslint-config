@@ -8,11 +8,6 @@ To integrate into an existing project:
 3. Run `npm i` to install the dev dependencies required for eslint.
 4. You should be able to lint using the 'npm run lint' command now.
 
-Three configs:
-1. Prettier
-2. Eslint Recommended
-3. AirBnB
-
 
 ##Configuration:
 In the `extends` section of the `.eslintrc.js` file select the rule set you prefer by commenting out the appropriate line.
