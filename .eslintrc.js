@@ -45,7 +45,6 @@ module.exports = {
         'react/self-closing-comp': 2,
         'react/sort-comp': [2, {
             order: [
-                'constructor',
                 'everything-else',
                 'lifecycle',
                 'render'
