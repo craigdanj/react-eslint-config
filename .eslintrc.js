@@ -31,7 +31,11 @@ module.exports = {
     ],
     'rules': {
         //Prettier
-        'prettier/prettier': 2,
+        'prettier/prettier': [2,
+            {
+                'useTabs': true
+            }
+        ],
 
         //EsLint Rules
         'prefer-const': 2,
@@ -76,6 +80,7 @@ module.exports = {
             'eventHandlerPrefix': 'handle',
             'eventHandlerPropPrefix': 'on'
         }],
+        'react/jsx-indent': [2, 'tab'],
         'react/jsx-no-bind': 2,
         'react/jsx-no-comment-textnodes': 2,
         'react/jsx-no-duplicate-props': 2,
