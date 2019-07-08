@@ -67,7 +67,7 @@ module.exports = {
             'eventHandlerPrefix': 'handle',
             'eventHandlerPropPrefix': 'on'
         }],
-        'react/jsx-indent': 2,
+        'react/jsx-indent': 4,
         'react/jsx-no-bind': 2,
         'react/jsx-no-comment-textnodes': 2,
         'react/jsx-no-duplicate-props': 2,
