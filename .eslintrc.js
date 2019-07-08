@@ -1,4 +1,13 @@
 module.exports = {
+    'settings': {
+        'react': {
+            'pragma': 'React',  // Pragma to use, default to 'React'
+            'version': 'detect' // React version. 'detect' automatically picks the version you have installed.
+                                    // You can also use `16.0`, `16.3`, etc, if you want to override the detected value.
+                                    // default to latest and warns if missing
+                                    // It will default to 'detect' in the future
+        }
+    },
     'env': {
         'browser': true,
         'es6': true
@@ -67,14 +76,16 @@ module.exports = {
             'eventHandlerPrefix': 'handle',
             'eventHandlerPropPrefix': 'on'
         }],
-        'react/jsx-indent': 4,
         'react/jsx-no-bind': 2,
         'react/jsx-no-comment-textnodes': 2,
         'react/jsx-no-duplicate-props': 2,
         'react/jsx-no-literals': 2,
         'react/jsx-no-target-blank': 2,
         'react/jsx-no-undef': 2,
-        'react/jsx-curly-brace-presence': 2,
+        'react/jsx-curly-brace-presence': [2, {
+            props: "always",
+            children: "always"
+        }],
         'react/jsx-pascal-case': 2,
         'react/jsx-props-no-multi-spaces': 2,
         'react/jsx-tag-spacing': 2,
