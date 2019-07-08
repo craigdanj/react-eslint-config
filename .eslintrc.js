@@ -61,7 +61,7 @@ module.exports = {
             multiline: 'consistent',
             singleline: 'consistent'
         },
-        'react/jsx-curly-spacing': {'when': 'never'},
+        'react/jsx-curly-spacing': 2,
         'react/jsx-equals-spacing': [2, 'never'],
         'react/jsx-handler-names': [2, {
             'eventHandlerPrefix': 'handle',
@@ -77,12 +77,7 @@ module.exports = {
         'react/jsx-curly-brace-presence': 2,
         'react/jsx-pascal-case': 2,
         'react/jsx-props-no-multi-spaces': 2,
-        'react/jsx-tag-spacing': {
-            'closingSlash': 'never',
-            'beforeSelfClosing': 'always',
-            'afterOpening': 'never',
-            'beforeClosing': 'allow'
-        },
+        'react/jsx-tag-spacing': 2,
         'react/jsx-uses-react': 2,
         'react/jsx-uses-vars': 2,
         'react/jsx-wrap-multilines': 2,
