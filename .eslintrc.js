@@ -83,8 +83,7 @@ module.exports = {
         'react/jsx-no-target-blank': 2,
         'react/jsx-no-undef': 2,
         'react/jsx-curly-brace-presence': [2, {
-            props: "always",
-            children: "always"
+            props: "always"
         }],
         'react/jsx-pascal-case': 2,
         'react/jsx-props-no-multi-spaces': 2,
