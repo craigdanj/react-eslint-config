@@ -58,7 +58,7 @@ module.exports = {
         'react/jsx-closing-bracket-location': 2,
         'react/jsx-closing-tag-location': 2,
         'react/jsx-curly-newline': {
-            multiline: 'consistent'
+            multiline: 'consistent',
             singleline: 'consistent'
         },
         'react/jsx-curly-spacing': {'when': 'never'},
@@ -66,7 +66,7 @@ module.exports = {
         'react/jsx-handler-names': [2, {
             'eventHandlerPrefix': 'handle',
             'eventHandlerPropPrefix': 'on'
-        }]
+        }],
         'react/jsx-indent': 2,
         'react/jsx-no-bind': 2,
         'react/jsx-no-comment-textnodes': 2,
