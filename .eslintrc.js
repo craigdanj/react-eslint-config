@@ -79,12 +79,10 @@ module.exports = {
         'react/jsx-no-bind': 2,
         'react/jsx-no-comment-textnodes': 2,
         'react/jsx-no-duplicate-props': 2,
-        'react/jsx-no-literals': 2,
+        // 'react/jsx-no-literals': 2,
         'react/jsx-no-target-blank': 2,
         'react/jsx-no-undef': 2,
-        'react/jsx-curly-brace-presence': [2, {
-            props: "always"
-        }],
+        'react/jsx-curly-brace-presence': 2,
         'react/jsx-pascal-case': 2,
         'react/jsx-props-no-multi-spaces': 2,
         'react/jsx-tag-spacing': 2,
